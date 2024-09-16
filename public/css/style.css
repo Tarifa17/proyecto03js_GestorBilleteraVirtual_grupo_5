@@ -1,0 +1,52 @@
+body { /* Modificacion del fondo de la pagina */
+    font-family: Arial, sans-serif;
+    background-color: #bb2d2d;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Estilo de la tarjeta */
+.custom-card {
+    background-color: #ebd453; 
+    border: 2px solid #000000; 
+    color: #1d25ec;
+    padding: 2px;
+    text-align: center; /* Alinea todos los elementos del card al centro */
+}
+
+.list-group-item {
+    background-color: #1d25ec; /* Color de fondo de los ítems de la lista */
+    border: 0px solid black;
+    /* text-align: center */;
+  }
+  input[type="text"] {
+    border-color: #000000; /* Color del borde del input */
+    background-color: #d8cca4; /* Color de fondo del input */
+  }
+  input[type="number"] {
+    border-color: #000000; /* Color del borde del input */
+    background-color: #d8cca4; /* Color de fondo del input */
+  }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    background-color: #1d25ec;
+}
+
+.flex-item{
+    flex: none;
+    width: 150px;
+    padding: 2px;
+}
