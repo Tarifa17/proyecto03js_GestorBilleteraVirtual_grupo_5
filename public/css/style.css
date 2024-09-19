@@ -1,8 +1,22 @@
 body { /* Modificacion del fondo de la pagina */
-    font-family: Arial, sans-serif;
-    background-color: #bb2d2d;
+    font-family: Arial, sans-serif;   
     margin: 0;
     padding: 20px;
+    background: linear-gradient(60deg,#1a001f,#4c055a,#a723c2,#24052b);
+    background-size: 200% 200%;
+    animation: color 20s ease-in-out infinite;
+}
+
+@keyframes color{
+  0%{
+      background-position: 0 35%;
+  }
+  50%{
+      background-position: 100% 35%;
+  }
+  100%{
+      background-position: 0 35%;
+  }
 }
 
 .container {
@@ -14,25 +28,25 @@ body { /* Modificacion del fondo de la pagina */
 
 /* Estilo de la tarjeta */
 .custom-card {
-    background-color: #ebd453; 
-    border: 2px solid #000000; 
-    color: #1d25ec;
+    background-color: #fde454; 
+    border: 3px solid #000000; 
+    color: #000000;
     padding: 2px;
     text-align: center; /* Alinea todos los elementos del card al centro */
 }
 
 .list-group-item {
-    background-color: #1d25ec; /* Color de fondo de los ítems de la lista */
+    background-color: #670186; /* Color de fondo de los ítems de la lista */
     border: 0px solid black;
     /* text-align: center */;
   }
   input[type="text"] {
     border-color: #000000; /* Color del borde del input */
-    background-color: #d8cca4; /* Color de fondo del input */
+    background-color: #eee0b1; /* Color de fondo del input */
   }
   input[type="number"] {
     border-color: #000000; /* Color del borde del input */
-    background-color: #d8cca4; /* Color de fondo del input */
+    background-color: #eee0b1; /* Color de fondo del input */
   }
 
 .flex-container{
@@ -42,11 +56,11 @@ body { /* Modificacion del fondo de la pagina */
     justify-content: center;
     gap: 10px;
     padding-top: 10px;
-    background-color: #1d25ec;
+    background-color: #670186;
 }
 
 .flex-item{
     flex: none;
     width: 150px;
-    padding: 2px;
+    padding: 2px;   
 }
