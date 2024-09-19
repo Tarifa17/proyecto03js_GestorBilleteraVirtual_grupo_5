@@ -6,25 +6,29 @@
     <title>Gestion de credito</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/src/index.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="card custom-card" style="width: 24rem;">
-            <img src="/images/Bvirt.jpg" class="card-img-top" alt="">
+            <img src="/public/images/Bvirt.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title"> Administrador de Billeteras</h5>
             </div>
             <ul class="list-group list-group-flush" id="listado">
-              <li class="list-group-item"><input type="text" id="usuario" placeholder="Nombre de Usuario"></li>
-              <li class="list-group-item"><input type="text" id="billetera" placeholder="Billetera"></li>
-              <li class="list-group-item"><input type="number" id="transaccion" placeholder="N° Transacciones"></li>
+              <li class="list-group-item datoInput"><input type="text" id="usuario" placeholder="Nombre de Usuario"></li>
+              <li class="list-group-item datoInput"><input type="text" id="billetera" placeholder="Billetera"></li>
+              <li class="list-group-item datoInput"><input type="number" id="transaccion" placeholder="N° Transacciones"></li>
             </ul>
             <div class="flex-container">
-                <div id="guardar" class="flex-item"><button type="button" class="btn btn-outline-secondary">Guardar</button></div>
-                <div id="mostrar" class="flex-item"><button type="button" class="btn btn-outline-secondary">Mostrar</button></div>
-                <div id="transacciones" class="flex-item"><button type="button" class="btn btn-outline-secondary">Mayor N° Trans.</button></div>
+                <div id="guardar" class="flex-item"><button type="button" class="btn btn-outline-secondary" onclick="guardarDatos()">Guardar</button></div>
+                <div id="mostrar" class="flex-item"><button type="button" class="btn btn-outline-secondary" onclick="mostrarDatos()">Mostrar</button></div>
+                <div id="transacciones" class="flex-item"><button type="button" class="btn btn-outline-secondary" onclick="mostarMayor()">Mayor N° Trans.</button></div>
               </div>
           </div>
+    </div>
+    <div class="container" id="lista">
+      
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
