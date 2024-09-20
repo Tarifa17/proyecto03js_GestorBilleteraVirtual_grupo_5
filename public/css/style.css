@@ -16,6 +16,25 @@ body { /* Modificacion del fondo de la pagina */
     height: 100%;
     
 }
+#lista {
+  
+    background-color: #2c2c2c; /* Cambia el color de fondo */
+    color: #ff6464; /* Cambia el color del texto */
+    padding: 20px;
+    width: 400px;/*tamalo a lo largo de  la lista*/
+    border-radius: 10px; /* Opcional: Bordes redondeados */
+    margin-top: 31px; /* Añadir espacio arriba del contenedor */
+    
+  }
+  #resultados {
+    
+    background-color: #2c2c2c; /* Cambia el color de fondo */
+    color: #ff6464; /* Cambia el color del texto */
+    padding: 20px;
+    width: 400px;/*tamalo a lo largo de  la lista*/
+    border-radius: 10px; /* Opcional: Bordes redondeados */
+    margin-top: 31px; /* Añadir espacio arriba del contenedor */
+  }
 
 
 /* Estilo de la tarjeta */
