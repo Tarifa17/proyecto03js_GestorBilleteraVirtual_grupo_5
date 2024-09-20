@@ -37,20 +37,27 @@ body { /* Modificacion del fondo de la pagina */
 }
 #lista {
   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     background-color: #2c2c2c; /* Cambia el color de fondo */
     color: #ff6464; /* Cambia el color del texto */
     padding: 20px;
-    width: 400px;/*tamalo a lo largo de  la lista*/
+    width: 350px;/*tamalo a lo largo de  la lista*/
     border-radius: 10px; /* Opcional: Bordes redondeados */
     margin-top: 31px; /* Añadir espacio arriba del contenedor */
     
   }
+  
   #resultados {
     
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     background-color: #2c2c2c; /* Cambia el color de fondo */
     color: #ff6464; /* Cambia el color del texto */
     padding: 20px;
-    width: 400px;/*tamalo a lo largo de  la lista*/
+    width: 350px;/*tamalo a lo largo de  la lista*/
     border-radius: 10px; /* Opcional: Bordes redondeados */
     margin-top: 31px; /* Añadir espacio arriba del contenedor */
   }
@@ -65,15 +72,6 @@ body { /* Modificacion del fondo de la pagina */
     text-align: center; /* Alinea todos los elementos del card al centro */
 }
 
-#lista {
-  
-  background-color: #2c2c2c; /* Cambia el color de fondo */
-  color: #ff6464; /* Cambia el color del texto */
-  padding: 20px;
-  width: 400px;/*tamalo a lo largo de  la lista*/
-  border-radius: 10px; /* Opcional: Bordes redondeados */
-  margin-top: 31px; /* Añadir espacio arriba del contenedor */
-}
 .list-group-item {
 
     background-color: #2c2c2c; /* Color de fondo de los ítems de la lista */
